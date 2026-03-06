@@ -1,0 +1,787 @@
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+LAMMPS (2 Aug 2023 - Update 4)
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+KOKKOS mode with Kokkos version 3.7.2 is enabled (src/KOKKOS/kokkos.cpp:108)
+  will use up to 4 GPU(s) per node
+WARNING: When using a single thread, the Kokkos Serial backend (i.e. Makefile.kokkos_mpi_only) gives better performance than the OpenMP backend (src/KOKKOS/kokkos.cpp:238)
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+  using 1 OpenMP thread(s) per MPI task
+Reading data file ...
+  orthogonal box = (0 0 0) to (18.6206 18.6206 18.6206)
+  4 by 5 by 5 MPI processor grid
+  reading atoms ...
+  648 atoms
+  read_data CPU = 0.120 seconds
+Replication is creating a 16x16x16 = 4096 times larger system...
+  orthogonal box = (0 0 0) to (297.9296 297.9296 297.9296)
+  4 by 5 by 5 MPI processor grid
+  2654208 atoms
+  replicate CPU = 2.983 seconds
+Use the NEP4 potential with 2 atom types.
+    type 0 (O).
+    type 1 (H).
+    radial cutoff = 6 A.
+    angular cutoff = 4 A.
+    MN_radial = 251.
+    MN_angular = 80.
+    enlarged MN_radial = 314.
+    enlarged MN_angular = 100.
+    n_max_radial = 9.
+    n_max_angular = 7.
+    basis_size_radial = 9.
+    basis_size_angular = 7.
+    l_max_3body = 4.
+    l_max_4body = 2.
+    l_max_5body = 0.
+    ANN = 50-100-1.
+   the input nep4 potential file is from GPUMD.
+    number of neural network parameters = 10401.
+    number of descriptor parameters = 656.
+    total number of parameters = 11057.
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+    copy the last bias parameters[10400]=-12.695954 to parameters[10401]=-12.695954 
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+NEP Kokkos potential /data/home/pfsuo/pfsuo/software/build/nep-data/2023_Xu_liquid_water/nep.txt loaded successfully
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+Neighbor list info ...
+  update: every = 1 steps, delay = 10 steps, check = yes
+  max neighbors/atom: 2000, page size: 100000
+  master list distance cutoff = 7
+  ghost atom cutoff = 7
+  binsize = 7, bins = 43 43 43
+  1 neighbor lists, perpetual/occasional/extra = 1 0 0
+  (1) pair matpl/nep/kk, perpetual
+      attributes: full, newton on, kokkos_device
+      pair build: full/bin/kk/device
+      stencil: full/bin/3d
+      bin: kk/device
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+Setting up Verlet run ...
+  Unit style    : metal
+  Current step  : 0
+  Time step     : 0.0005
+Per MPI rank memory allocation (min/avg/max) = 8.41 | 8.462 | 8.511 Mbytes
+   Step          Temp          PotEng         KinEng         TotEng         Press          Volume    
+         0   300           -137616.84      102924.95     -34691.883     -40209.661      26444841     
+       100   333.25023     -151543.16      114332.55     -37210.611      4674.0365      26380977     
+       200   335.04206     -155246.33      114947.3      -40299.034     -4162.4165      26299538     
+       300   333.88485     -158266.54      114550.28     -43716.268     -1599.8195      26224875     
+       400   330.61223     -160742.87      113427.5      -47315.373     -1566.3049      26157650     
+       500   325.29589     -162474.55      111603.55     -50871.007     -1360.9202      26093683     
+       600   322.21698     -164874.78      110547.23     -54327.55      -1740.4995      26033150     
+       700   319.89584     -167441.72      109750.88     -57690.84      -1189.9359      25978166     
+       800   317.31702     -169814.39      108866.13     -60948.255     -1128.8284      25927014     
+       900   314.67631     -172024.25      107960.15     -64064.101     -1154.6768      25878093     
+      1000   311.80786     -173965.06      106976.03     -66989.032     -1146.3546      25830589     
+      1100   309.32985     -175830.45      106125.87     -69704.586     -976.7311       25784512     
+      1200   307.01269     -177523.51      105330.89     -72192.622     -878.47176      25740912     
+      1300   304.96293     -179075.57      104627.65     -74447.914     -930.45875      25699082     
+      1400   303.48076     -180587.93      104119.15     -76468.785     -823.80859      25659311     
+      1500   302.14276     -181895.28      103660.1      -78235.179     -751.47023      25621357     
+      1600   301.13128     -183064.92      103313.08     -79751.846     -673.69103      25585329     
+      1700   300.19527     -183982.93      102991.95     -80990.985     -634.98075      25552069     
+      1800   299.80434     -184789.62      102857.83     -81931.789     -609.70373      25521281     
+      1900   299.70268     -185399.2       102822.95     -82576.249     -444.01649      25492572     
+      2000   299.90988     -185871.29      102894.04     -82977.256     -376.46676      25466048     
+      2100   300.09826     -186247.16      102958.66     -83288.491     -401.53745      25441778     
+      2200   299.98629     -186542.45      102920.25     -83622.199     -268.73694      25419742     
+      2300   300.13439     -186943.52      102971.06     -83972.462     -227.76759      25399400     
+      2400   300.01945     -187276.52      102931.63     -84344.894     -235.75013      25381171     
+      2500   300.13495     -187665.64      102971.25     -84694.385     -191.72058      25364657     
+      2600   299.86502     -187921.07      102878.65     -85042.429     -235.21405      25348669     
+      2700   299.80509     -188216.85      102858.08     -85358.764     -213.90879      25333652     
+      2800   299.93156     -188492.95      102901.47     -85591.472     -174.3125       25318696     
+      2900   300.06916     -188748.06      102948.68     -85799.374     -125.29864      25305098     
+      3000   300.03192     -189018.26      102935.91     -86082.352     -113.22454      25293748     
+      3100   299.89157     -189283.48      102887.75     -86395.727     -73.229791      25283116     
+      3200   299.93186     -189541.58      102901.58     -86640.005     -66.767126      25273479     
+      3300   300.01297     -189764.24      102929.4      -86834.839     -106.78232      25265043     
+      3400   300.14501     -189988.07      102974.7      -87013.365     -113.19884      25257169     
+      3500   299.99085     -190125.38      102921.82     -87203.561     -122.58316      25249706     
+      3600   299.77041     -190168.01      102846.19     -87321.821     -78.110932      25242430     
+      3700   300.43567     -190459.33      103074.43     -87384.901     -81.519056      25235617     
+      3800   300.24563     -190548.75      103009.23     -87539.524      5.2086447      25229859     
+      3900   300.28213     -190803.94      103021.75     -87782.187     -65.366313      25225247     
+      4000   299.92275     -190974.1       102898.45     -88075.649     -28.461084      25220867     
+      4100   299.86429     -191203.76      102878.39     -88325.361     -6.3071331      25216319     
+      4200   300.12669     -191438.07      102968.42     -88469.647     -35.535182      25211450     
+      4300   300.02373     -191538.16      102933.09     -88605.07       2.7007334      25208085     
+      4400   299.91138     -191637.53      102894.55     -88742.976      40.16507       25205612     
+      4500   299.96553     -191719.34      102913.13     -88806.213     -81.174998      25202344     
+      4600   300.04146     -191799.53      102939.18     -88860.356      38.889025      25197677     
+      4700   300.18232     -191944.37      102987.5      -88956.868     -64.955017      25195269     
+      4800   300.0935      -192145.27      102957.03     -89188.241     -10.553221      25193400     
+      4900   299.91372     -192373.26      102895.35     -89477.905     -8.1180009      25189643     
+      5000   299.669       -192495.4       102811.39     -89684.007     -17.905534      25184239     
+      5100   299.95414     -192661.64      102909.22     -89752.418     -0.056628798    25179851     
+      5200   299.97726     -192702.06      102917.15     -89784.907      15.3985        25177809     
+      5300   300.09942     -192838.45      102959.06     -89879.385      28.794315      25177052     
+      5400   299.8461      -192970.76      102872.15     -90098.611     -22.437771      25175804     
+      5500   299.71962     -193095.9       102828.76     -90267.135     -12.911284      25174100     
+      5600   300.05453     -193279.56      102943.66     -90335.896     -36.528702      25171861     
+      5700   300.01836     -193323.67      102931.25     -90392.416     -19.398988      25169941     
+      5800   299.98693     -193368.86      102920.47     -90448.392     -40.74502       25169422     
+      5900   300.04163     -193486.93      102939.24     -90547.689      10.656354      25169149     
+      6000   300.12679     -193688.22      102968.45     -90719.766     -15.452999      25168324     
+      6100   299.95926     -193819.2       102910.98     -90908.227     -44.724849      25166679     
+      6200   300.00386     -193946.67      102926.28     -91020.385     -44.427182      25164180     
+      6300   300.21354     -194055.43      102998.22     -91057.216     -4.8429501      25163174     
+      6400   300.10079     -194108.47      102959.53     -91148.932     -52.787889      25162837     
+      6500   299.83349     -194125.87      102867.83     -91258.04       3.146702       25163661     
+      6600   300.22977     -194338.23      103003.78     -91334.449     -50.123275      25164598     
+      6700   299.89752     -194333.6       102889.79     -91443.81      -8.9756563      25164340     
+      6800   299.87708     -194427.37      102882.78     -91544.585     -29.631145      25162484     
+      6900   300.01473     -194510.66      102930.01     -91580.654     -8.4465162      25160953     
+      7000   300.17367     -194649.76      102984.54     -91665.219      35.863101      25161036     
+      7100   299.84951     -194704.92      102873.33     -91831.594     -24.046166      25160909     
+      7200   299.9643      -194849.33      102912.71     -91936.626      16.577115      25159754     
+      7300   299.96594     -194934.7       102913.27     -92021.427     -46.353238      25158181     
+      7400   300.09385     -195085.87      102957.15     -92128.712      6.8040654      25156883     
+      7500   299.95093     -195205.72      102908.12     -92297.602     -26.531278      25155950     
+      7600   299.77996     -195265.34      102849.46     -92415.878     -79.057697      25155265     
+      7700   299.82599     -195271.68      102865.25     -92406.425     -4.97972        25155902     
+      7800   300.04722     -195317.66      102941.16     -92376.503      23.325096      25158792     
+      7900   299.9037      -195365.38      102891.92     -92473.464      10.083839      25162874     
+      8000   300.12766     -195580.94      102968.75     -92612.191     -20.266246      25165455     
+      8100   299.95592     -195671.87      102909.83     -92762.037      42.380892      25164880     
+      8200   299.9235      -195827.59      102898.71     -92928.879     -12.549557      25163052     
+      8300   300.07391     -195940.25      102950.31     -92989.941      18.715175      25161975     
+      8400   300.0434      -195914.33      102939.85     -92974.483      18.592368      25163805     
+      8500   300.15879     -195948.03      102979.43     -92968.601     -38.585122      25166991     
+      8600   300.14514     -196012.87      102974.75     -93038.118     -62.205236      25169114     
+      8700   300.17653     -196178.54      102985.52     -93193.018     -20.461078      25169376     
+      8800   299.81423     -196229.23      102861.22     -93368.007     -25.040996      25168484     
+      8900   299.8134      -196311.05      102860.93     -93450.111      48.269411      25167120     
+      9000   300.01157     -196377.7       102928.92     -93448.773      4.0243098      25167033     
+      9100   300.0536      -196406.29      102943.34     -93462.943      25.657097      25169268     
+      9200   300.01866     -196477.5       102931.36     -93546.148      6.1863732      25172642     
+      9300   300.04777     -196577.98      102941.34     -93636.636     -28.463907      25175924     
+      9400   300.24103     -196706.23      103007.65     -93698.587     -23.668367      25177134     
+      9500   299.94109     -196685.33      102904.74     -93780.582     -2.9552166      25175654     
+      9600   299.94159     -196749.89      102904.92     -93844.973      48.368166      25173255     
+      9700   300.32709     -196940.4       103037.17     -93903.222      5.816118       25172906     
+      9800   300.03907     -196936.22      102938.36     -93997.86      -14.61853       25174501     
+      9900   299.95836     -197022.12      102910.67     -94111.451     -24.304448      25176622     
+     10000   299.83878     -197122.88      102869.64     -94253.237     -12.85504       25178346     
+Loop time of 58.1308 on 100 procs for 10000 steps with 2654208 atoms
+
+Performance: 7.432 ns/day, 3.229 hours/ns, 172.026 timesteps/s, 456.593 Matom-step/s
+74.4% CPU use with 100 MPI tasks x 1 OpenMP threads
+
+MPI task timing breakdown:
+Section |  min time  |  avg time  |  max time  |%varavg| %total
+---------------------------------------------------------------
+Pair    | 40.879     | 41.372     | 42.089     |   4.6 | 71.17
+Neigh   | 1.6473     | 1.6922     | 1.8055     |   1.9 |  2.91
+Comm    | 10.845     | 11.744     | 12.43      |  11.3 | 20.20
+Output  | 0.012902   | 0.021635   | 0.02668    |   1.6 |  0.04
+Modify  | 2.7855     | 3.0768     | 3.396      |   9.0 |  5.29
+Other   |            | 0.2246     |            |       |  0.39
+
+Nlocal:        26542.1 ave       26784 max       26383 min
+Histogram: 4 15 11 17 26 13 12 0 0 2
+Nghost:        21982.5 ave       22174 max       21780 min
+Histogram: 1 3 4 21 15 25 16 10 3 2
+Neighs:              0 ave           0 max           0 min
+Histogram: 100 0 0 0 0 0 0 0 0 0
+FullNghs:  3.98681e+06 ave 4.05322e+06 max 3.94316e+06 min
+Histogram: 7 9 18 14 23 15 11 1 0 2
+
+Total # of neighbors = 3.9868085e+08
+Ave neighs/atom = 150.20709
+Neighbor list builds = 809
+Dangerous builds = 5
+Total wall time: 0:01:16

@@ -1,0 +1,4 @@
+Starting job 3795850 at  Wed Jan 7 11:42:45 CST 2026
+SLURM_SUBMIT_DIR is /data/home/pfsuo/pfsuo/software/build/MatPL_paper/MD_simulation/water/1GPU/DP/NPT
+Running on nodes: gn204
+Job 3795850 done at  Wed Jan 7 12:50:38 CST 2026

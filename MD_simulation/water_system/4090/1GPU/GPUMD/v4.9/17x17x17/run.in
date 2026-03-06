@@ -1,0 +1,7 @@
+replicate   17  17  17
+velocity    300
+potential   /data/home/pfsuo/pfsuo/software/build/nep-data/2023_Xu_liquid_water/nep.txt
+ensemble nvt_nhc 300 300 100
+time_step   0.5
+dump_thermo 100
+run         10000

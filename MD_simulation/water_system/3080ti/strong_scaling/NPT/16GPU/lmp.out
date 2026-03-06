@@ -1,0 +1,283 @@
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+LAMMPS (2 Aug 2023 - Update 4)
+KOKKOS mode with Kokkos version 3.7.2 is enabled (src/KOKKOS/kokkos.cpp:108)
+  will use up to 4 GPU(s) per node
+WARNING: When using a single thread, the Kokkos Serial backend (i.e. Makefile.kokkos_mpi_only) gives better performance than the OpenMP backend (src/KOKKOS/kokkos.cpp:238)
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+  using 1 OpenMP thread(s) per MPI task
+Reading data file ...
+  orthogonal box = (0 0 0) to (18.6206 18.6206 18.6206)
+  2 by 2 by 4 MPI processor grid
+  reading atoms ...
+  648 atoms
+  read_data CPU = 0.029 seconds
+Replication is creating a 16x16x16 = 4096 times larger system...
+  orthogonal box = (0 0 0) to (297.9296 297.9296 297.9296)
+  2 by 2 by 4 MPI processor grid
+  2654208 atoms
+  replicate CPU = 0.283 seconds
+Use the NEP4 potential with 2 atom types.
+    type 0 (O).
+    type 1 (H).
+    radial cutoff = 6 A.
+    angular cutoff = 4 A.
+    MN_radial = 251.
+    MN_angular = 80.
+    enlarged MN_radial = 314.
+    enlarged MN_angular = 100.
+    n_max_radial = 9.
+    n_max_angular = 7.
+    basis_size_radial = 9.
+    basis_size_angular = 7.
+    l_max_3body = 4.
+    l_max_4body = 2.
+    l_max_5body = 0.
+    ANN = 50-100-1.
+   the input nep4 potential file is from GPUMD.
+    number of neural network parameters = 10401.
+    number of descriptor parameters = 656.
+    total number of parameters = 11057.
+    copy the last bias parameters[10400]=-12.695954 to parameters[10401]=-12.695954 
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+NEP Kokkos potential /data/home/pfsuo/pfsuo/software/build/nep-data/2023_Xu_liquid_water/nep.txt loaded successfully
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+Neighbor list info ...
+  update: every = 1 steps, delay = 10 steps, check = yes
+  max neighbors/atom: 2000, page size: 100000
+  master list distance cutoff = 7
+  ghost atom cutoff = 7
+  binsize = 7, bins = 43 43 43
+  1 neighbor lists, perpetual/occasional/extra = 1 0 0
+  (1) pair matpl/nep/kk, perpetual
+      attributes: full, newton on, kokkos_device
+      pair build: full/bin/kk/device
+      stencil: full/bin/3d
+      bin: kk/device
+Setting up Verlet run ...
+  Unit style    : metal
+  Current step  : 0
+  Time step     : 0.0005
+Per MPI rank memory allocation (min/avg/max) = 39.8 | 39.8 | 39.8 Mbytes
+   Step          Temp          PotEng         KinEng         TotEng         Press          Volume    
+         0   300           -137616.84      102924.95     -34691.883     -40209.66       26444841     
+       100   333.25029     -151543.18      114332.57     -37210.611      4674.0209      26380977     
+       200   335.04208     -155246.31      114947.3      -40299.01      -4162.4049      26299538     
+       300   333.88491     -158266.54      114550.3      -43716.242     -1599.8389      26224875     
+       400   330.61232     -160742.9       113427.53     -47315.368     -1566.2388      26157650     
+       500   325.29601     -162474.58      111603.59     -50870.986     -1360.8992      26093683     
+       600   322.21742     -164874.88      110547.38     -54327.499     -1740.5621      26033150     
+       700   319.8946      -167441.28      109750.46     -57690.827     -1190.0218      25978166     
+       800   317.31681     -169814.32      108866.06     -60948.264     -1128.7397      25927014     
+       900   314.67182     -172022.6       107958.61     -64063.988     -1154.1311      25878094     
+      1000   311.80259     -173963.27      106974.23     -66989.043     -1145.7419      25830588     
+      1100   309.33248     -175831.21      106126.77     -69704.437     -978.14871      25784516     
+      1200   307.00457     -177520.49      105328.11     -72192.383     -882.67837      25740919     
+      1300   304.9417      -179067.63      104620.37     -74447.267     -932.22145      25699070     
+      1400   303.45228     -180577.94      104109.38     -76468.56      -826.66111      25659271     
+      1500   302.10775     -181879.52      103648.09     -78231.436     -754.04771      25621300     
+      1600   301.07365     -183038.07      103293.3      -79744.769     -667.09044      25585334     
+      1700   300.30423     -184009.07      103029.33     -80979.736     -648.16259      25552121     
+      1800   299.91592     -184836.7       102896.11     -81940.595     -592.16605      25521367     
+      1900   299.79131     -185460.35      102853.36     -82606.993     -464.24975      25492756     
+      2000   299.82251     -185848.31      102864.06     -82984.25      -440.71482      25466151     
+      2100   300.32972     -186310.16      103038.08     -83272.081     -353.61217      25441788     
+      2200   299.8278      -186451.82      102865.88     -83585.942     -284.11617      25420054     
+      2300   300.01899     -186827.81      102931.47     -83896.344     -265.7219       25400538     
+      2400   299.91718     -187164.74      102896.54     -84268.2       -276.50616      25382313     
+      2500   299.83383     -187543.97      102867.94     -84676.024     -240.27903      25364477     
+      2600   299.9021      -187904.32      102891.37     -85012.959     -161.74469      25347939     
+      2700   299.90354     -188162.08      102891.86     -85270.219     -207.22305      25332669     
+      2800   300.00375     -188407.68      102926.24     -85481.44      -164.99011      25318436     
+      2900   299.92977     -188587.05      102900.86     -85686.188     -145.46656      25305191     
+      3000   300.06531     -188842.22      102947.36     -85894.856     -128.12054      25293271     
+      3100   300.23384     -189166.06      103005.18     -86160.881     -86.107477      25282338     
+      3200   300.01235     -189411.35      102929.19     -86482.154     -70.154675      25273027     
+      3300   299.75516     -189609.91      102840.95     -86768.96      -43.778137      25264804     
+      3400   299.90496     -189856.44      102892.35     -86964.088     -45.536837      25256990     
+      3500   299.92343     -190007.39      102898.68     -87108.701     -60.298802      25250442     
+      3600   299.99852     -190195.83      102924.45     -87271.39       46.437276      25244784     
+      3700   300.08914     -190431.7       102955.54     -87476.161     -40.157203      25240120     
+      3800   299.77994     -190538.93      102849.46     -87689.474     -17.082554      25234351     
+      3900   299.94382     -190745.91      102905.68     -87840.233     -54.32582       25228437     
+      4000   300.24434     -190959.29      103008.78     -87950.504     -11.856599      25222725     
+      4100   300.17822     -191072.06      102986.1      -88085.959     -14.29198       25218357     
+      4200   299.92374     -191214.29      102898.79     -88315.5       -5.0169263      25213973     
+      4300   299.93609     -191459.08      102903.03     -88556.047      4.4128796      25209287     
+      4400   299.79723     -191587.02      102855.39     -88731.63       10.227267      25206393     
+      4500   299.98269     -191774.96      102919.01     -88855.941     -7.7184063      25205098     
+      4600   299.84935     -191852.8       102873.27     -88979.527      59.21394       25203005     
+      4700   300.16386     -192048.53      102981.17     -89067.355     -35.268309      25200316     
+      4800   300.01932     -192102.51      102931.58     -89170.923      28.033066      25196854     
+      4900   299.98678     -192223.41      102920.42     -89302.986      27.463875      25192705     
+      5000   300.07411     -192351.39      102950.38     -89401.01       42.137972      25189482     
+      5100   299.96684     -192420.36      102913.58     -89506.779     -19.949906      25186633     
+      5200   300.29356     -192636.2       103025.67     -89610.526     -43.393539      25184669     
+      5300   300.23579     -192806.85      103005.85     -89800.997      8.7735577      25182901     
+      5400   299.8848      -192901.13      102885.43     -90015.7       -6.3669165      25182073     
+      5500   300.09198     -193127.22      102956.51     -90170.71       36.80607       25182317     
+      5600   300.2501      -193261.86      103010.76     -90251.099      63.222459      25182589     
+      5700   300.16826     -193328.79      102982.68     -90346.11      -45.74074       25182009     
+      5800   300.07301     -193433.19      102950        -90483.185      3.3102711      25180739     
+      5900   299.91456     -193540.89      102895.64     -90645.255     -11.331188      25178791     
+      6000   300.01142     -193713.72      102928.87     -90784.845      32.193846      25176972     
+      6100   300.20088     -193874.72      102993.87     -90880.849      2.9361186      25175042     
+      6200   299.96019     -193893.97      102911.3      -90982.678      44.806577      25171242     
+      6300   300.05217     -193984.68      102942.85     -91041.83       16.588907      25168583     
+      6400   300.13243     -194087.23      102970.39     -91116.845      23.609529      25168188     
+      6500   299.98354     -194193.83      102919.31     -91274.519      13.41276       25168166     
+      6600   299.94484     -194347.23      102906.03     -91441.201     -49.69675       25167694     
+      6700   299.99701     -194488.29      102923.93     -91564.364     -55.42062       25166808     
+      6800   299.99485     -194555.06      102923.19     -91631.87      -15.4552        25165692     
+      6900   299.72999     -194499.56      102832.32     -91667.238      8.6529024      25164433     
+      7000   300.04772     -194627.65      102941.33     -91686.322     -13.794071      25163995     
+      7100   299.9821      -194685.88      102918.81     -91767.072      11.393604      25163780     
+      7200   299.97656     -194832.92      102916.91     -91916.008      19.969926      25164609     
+      7300   299.81995     -194927.37      102863.18     -92064.193     -70.955435      25165299     
+      7400   300.07695     -195085.18      102951.36     -92133.827     -18.770184      25163515     
+      7500   300.2123      -195162.88      102997.79     -92165.089      26.483101      25160763     
+      7600   300.10639     -195191.75      102961.46     -92230.296      30.486529      25160396     
+      7700   299.88147     -195236.47      102884.29     -92352.18       4.7661165      25163396     
+      7800   299.9741      -195392.17      102916.07     -92476.099     -27.521771      25168919     
+      7900   299.89116     -195498.36      102887.61     -92610.744      7.9743584      25171069     
+      8000   299.93374     -195607.58      102902.22     -92705.358      4.4001959      25169207     
+      8100   299.92312     -195603.33      102898.58     -92704.755     -54.227253      25166712     
+      8200   300.04226     -195658.23      102939.45     -92718.781      4.9149292      25165340     
+      8300   300.09464     -195781.49      102957.42     -92824.068     -45.450813      25165444     
+      8400   299.98743     -195888.37      102920.64     -92967.731     -32.265635      25166372     
+      8500   299.80423     -195971.49      102857.79     -93113.705     -122.86716      25166610     
+      8600   299.92833     -196101.93      102900.36     -93201.562     -23.092965      25164005     
+      8700   300.20304     -196207.62      102994.61     -93213.006      1.130167       25160257     
+      8800   300.11892     -196235.58      102965.75     -93269.831      50.656372      25157914     
+      8900   299.97323     -196259.32      102915.77     -93343.548     -2.8350237      25159570     
+      9000   300.18947     -196398.54      102989.96     -93408.581     -1.4959658      25162491     
+      9100   300.04389     -196440.91      102940.01     -93500.902     -10.850796      25164559     
+      9200   300.0231      -196495.56      102932.88     -93562.684      44.307934      25165266     
+      9300   299.92436     -196465.1       102899        -93566.102      36.703766      25164764     
+      9400   300.17862     -196576.54      102986.24     -93590.3       -27.166777      25164302     
+      9500   300.05183     -196650.79      102942.74     -93708.059     -13.705954      25164344     
+      9600   299.98062     -196750.64      102918.3      -93832.338     -73.305786      25163599     
+      9700   299.87587     -196782.81      102882.37     -93900.447     -25.079901      25161709     
+      9800   299.91465     -196825.66      102895.67     -93929.987      40.75175       25159560     
+      9900   300.10947     -196926.81      102962.51     -93964.301      38.697591      25158936     
+     10000   299.96703     -196973.96      102913.64     -94060.323     -38.746604      25161528     
+Loop time of 266.157 on 16 procs for 10000 steps with 2654208 atoms
+
+Performance: 1.623 ns/day, 14.787 hours/ns, 37.572 timesteps/s, 99.723 Matom-step/s
+66.1% CPU use with 16 MPI tasks x 1 OpenMP threads
+
+MPI task timing breakdown:
+Section |  min time  |  avg time  |  max time  |%varavg| %total
+---------------------------------------------------------------
+Pair    | 237.09     | 237.26     | 237.5      |   0.7 | 89.14
+Neigh   | 7.0902     | 7.3525     | 7.506      |   4.2 |  2.76
+Comm    | 16.967     | 17.532     | 17.859     |   7.9 |  6.59
+Output  | 0.010724   | 0.044295   | 0.077156   |  11.0 |  0.02
+Modify  | 3.2877     | 3.5682     | 4.0677     |  15.5 |  1.34
+Other   |            | 0.4003     |            |       |  0.15
+
+Nlocal:         165888 ave      166148 max      165393 min
+Histogram: 1 0 1 0 2 2 2 4 0 4
+Nghost:        71307.6 ave       71441 max       71152 min
+Histogram: 2 2 1 1 0 2 2 2 2 2
+Neighs:              0 ave           0 max           0 min
+Histogram: 16 0 0 0 0 0 0 0 0 0
+FullNghs:  2.49367e+07 ave  2.5016e+07 max  2.4788e+07 min
+Histogram: 1 0 1 0 2 1 4 2 3 2
+
+Total # of neighbors = 3.9898783e+08
+Ave neighs/atom = 150.32275
+Neighbor list builds = 808
+Dangerous builds = 3
+Total wall time: 0:04:30

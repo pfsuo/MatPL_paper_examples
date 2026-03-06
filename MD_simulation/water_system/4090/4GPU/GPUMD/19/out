@@ -1,0 +1,10 @@
+Starting job 3900372 at  Wed Feb 18 05:03:56 CST 2026
+SLURM_SUBMIT_DIR is /data/home/pfsuo/pfsuo/software/build/MatPL_paper/MD_simulation/water/4GPU/GPUMD/19
+Running on nodes: gn202
+CUDA Error:
+    File:       ./utilities/gpu_vector.cuh
+    Line:       84
+    Error code: 2
+    Error text: out of memory
+Submitted batch job 3900373
+Job 3900372 done at  Wed Feb 18 05:04:03 CST 2026

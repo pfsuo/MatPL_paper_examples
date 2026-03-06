@@ -1,0 +1,10 @@
+Starting job 3900560 at  Wed Feb 18 15:31:29 CST 2026
+SLURM_SUBMIT_DIR is /data/home/pfsuo/pfsuo/software/build/MatPL_paper/MD_simulation/water/2GPU/GPUMD/19
+Running on nodes: gn202
+CUDA Error:
+    File:       force/nep_multigpu.cu
+    Line:       1702
+    Error code: 2
+    Error text: out of memory
+Submitted batch job 3900561
+Job 3900560 done at  Wed Feb 18 15:31:35 CST 2026

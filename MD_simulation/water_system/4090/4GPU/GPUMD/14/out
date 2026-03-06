@@ -1,0 +1,5 @@
+Starting job 3900315 at  Wed Feb 18 01:05:24 CST 2026
+SLURM_SUBMIT_DIR is /data/home/pfsuo/pfsuo/software/build/MatPL_paper/MD_simulation/water/4GPU/GPUMD/14
+Running on nodes: gn202
+Submitted batch job 3900323
+Job 3900315 done at  Wed Feb 18 01:36:07 CST 2026

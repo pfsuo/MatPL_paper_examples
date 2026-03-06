@@ -1,0 +1,89 @@
+Starting job 3795912 at  Tue Jan 6 18:21:44 CST 2026
+SLURM_SUBMIT_DIR is /data/home/pfsuo/pfsuo/software/build/MatPL_paper/MD_simulation/water/1GPU/MACE/NPT
+Running on nodes: gn204
+/share/app/anaconda3/envs/MACE/lib/python3.11/site-packages/e3nn/o3/_wigner.py:10: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  _Jd, _W3j_flat, _W3j_indices = torch.load(os.path.join(os.path.dirname(__file__), 'constants.pt'))
+/share/app/anaconda3/envs/MACE/lib/python3.11/site-packages/mace/calculators/mace.py:197: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  torch.load(f=model_path, map_location=device)
+WARNING:root:Default dtype float32 does not match model dtype float64, converting models to float32.
+WARNING: NPT: Setting the center-of-mass momentum to zero (was 20.8379 -0.628305 15.0564)
+cuequivariance or cuequivariance_torch is not available. Cuequivariance acceleration will be disabled.
+/share/app/anaconda3/envs/MACE/lib/python3.11/site-packages/mace/calculators/foundations_models/2023-12-03-mace-128-L1_epoch-199.model
+Using Materials Project MACE for MACECalculator with /share/app/anaconda3/envs/MACE/lib/python3.11/site-packages/mace/calculators/foundations_models/2023-12-03-mace-128-L1_epoch-199.model
+Using float32 for MACECalculator, which is faster but less accurate. Recommended for MD. Use float64 for geometry optimization.
+Beginning Nose-Hoover NPT equilibration
+Traceback (most recent call last):
+  File "/data/home/pfsuo/pfsuo/software/build/MatPL_paper/MD_simulation/water/1GPU/MACE/NPT/run_md.py", line 77, in <module>
+    dyn_npt.run(10000)
+  File "/share/app/anaconda3/envs/MACE/lib/python3.11/site-packages/ase/md/npt.py", line 284, in run
+    self.step()
+  File "/share/app/anaconda3/envs/MACE/lib/python3.11/site-packages/ase/md/npt.py", line 354, in step
+    force = self.forcecalculator()
+            ^^^^^^^^^^^^^^^^^^^^^^
+  File "/share/app/anaconda3/envs/MACE/lib/python3.11/site-packages/ase/md/npt.py", line 362, in forcecalculator
+    return self.atoms.get_forces(md=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/share/app/anaconda3/envs/MACE/lib/python3.11/site-packages/ase/atoms.py", line 812, in get_forces
+    forces = self._calc.get_forces(self)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/share/app/anaconda3/envs/MACE/lib/python3.11/site-packages/ase/calculators/abc.py", line 30, in get_forces
+    return self.get_property('forces', atoms)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/share/app/anaconda3/envs/MACE/lib/python3.11/site-packages/ase/calculators/calculator.py", line 538, in get_property
+    self.calculate(atoms, [name], system_changes)
+  File "/share/app/anaconda3/envs/MACE/lib/python3.11/site-packages/mace/calculators/mace.py", line 431, in calculate
+    out = model(
+          ^^^^^^
+  File "/share/app/anaconda3/envs/MACE/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/share/app/anaconda3/envs/MACE/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/share/app/anaconda3/envs/MACE/lib/python3.11/site-packages/mace/modules/models.py", line 540, in forward
+    node_feats, sc = interaction(
+                     ^^^^^^^^^^^^
+  File "/share/app/anaconda3/envs/MACE/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/share/app/anaconda3/envs/MACE/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/share/app/anaconda3/envs/MACE/lib/python3.11/site-packages/mace/modules/blocks.py", line 723, in forward
+    mji = self.conv_tp(
+          ^^^^^^^^^^^^^
+  File "/share/app/anaconda3/envs/MACE/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/share/app/anaconda3/envs/MACE/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/share/app/anaconda3/envs/MACE/lib/python3.11/site-packages/e3nn/o3/_tensor_product/_tensor_product.py", line 529, in forward
+    return self._compiled_main_left_right(x, y, real_weight)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/share/app/anaconda3/envs/MACE/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/share/app/anaconda3/envs/MACE/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: The following operation failed in the TorchScript interpreter.
+Traceback of TorchScript, serialized code (most recent call last):
+  File "code/__torch__/torch/fx/graph_module/___torch_mangle_11.py", line 141, in forward
+    reshape_34 = torch.reshape(einsum_23, [getitem_4, 896])
+    _17 = [reshape_12, reshape_14, reshape_17, reshape_20, reshape_22, reshape_25, reshape_27, reshape_29, reshape_32, reshape_34]
+    cat = torch.cat(_17, 1)
+          ~~~~~~~~~ <--- HERE
+    return torch.reshape(cat, add_3)
+
+Traceback of TorchScript, original code (most recent call last):
+  File "<eval_with_key>.127", line 115, in forward
+    einsum_23 = torch.functional.einsum('dbca,dbc->dba', tensordot_3, reshape_33);  tensordot_3 = reshape_33 = None
+    reshape_34 = einsum_23.reshape(getitem_4, 896);  einsum_23 = getitem_4 = None
+    cat = torch.cat([reshape_12, reshape_14, reshape_17, reshape_20, reshape_22, reshape_25, reshape_27, reshape_29, reshape_32, reshape_34], dim = 1);  reshape_12 = reshape_14 = reshape_17 = reshape_20 = reshape_22 = reshape_25 = reshape_27 = reshape_29 = reshape_32 = reshape_34 = None
+          ~~~~~~~~~ <--- HERE
+    reshape_35 = cat.reshape(add_3);  cat = add_3 = None
+    return reshape_35
+RuntimeError: CUDA out of memory. Tried to allocate 4.51 GiB. GPU 0 has a total capacity of 23.64 GiB of which 4.24 GiB is free. Including non-PyTorch memory, this process has 19.39 GiB memory in use. Of the allocated memory 11.11 GiB is allocated by PyTorch, and 7.80 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+
+Job 3795912 done at  Tue Jan 6 18:24:02 CST 2026

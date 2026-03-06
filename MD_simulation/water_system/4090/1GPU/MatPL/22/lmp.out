@@ -1,0 +1,111 @@
+LAMMPS (2 Aug 2023 - Update 4)
+KOKKOS mode with Kokkos version 3.7.2 is enabled (src/KOKKOS/kokkos.cpp:108)
+  will use up to 1 GPU(s) per node
+WARNING: When using a single thread, the Kokkos Serial backend (i.e. Makefile.kokkos_mpi_only) gives better performance than the OpenMP backend (src/KOKKOS/kokkos.cpp:238)
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::Cuda::initialize WARNING: running kernels compiled for compute capability 8.6 on device with compute capability 8.9 , this will likely reduce potential performance.
+Kokkos::Cuda::initialize WARNING: running kernels compiled for compute capability 8.6 on device with compute capability 8.9 , this will likely reduce potential performance.
+  using 1 OpenMP thread(s) per MPI task
+Reading data file ...
+  orthogonal box = (0 0 0) to (18.6206 18.6206 18.6206)
+  1 by 1 by 1 MPI processor grid
+  reading atoms ...
+  648 atoms
+  read_data CPU = 0.005 seconds
+Replication is creating a 22x22x22 = 10648 times larger system...
+  orthogonal box = (0 0 0) to (409.6532 409.6532 409.6532)
+  1 by 1 by 1 MPI processor grid
+  6899904 atoms
+  replicate CPU = 0.370 seconds
+Use the NEP4 potential with 2 atom types.
+    type 0 (O).
+    type 1 (H).
+    radial cutoff = 6 A.
+    angular cutoff = 4 A.
+    MN_radial = 251.
+    MN_angular = 80.
+    enlarged MN_radial = 314.
+    enlarged MN_angular = 100.
+    n_max_radial = 9.
+    n_max_angular = 7.
+    basis_size_radial = 9.
+    basis_size_angular = 7.
+    l_max_3body = 4.
+    l_max_4body = 2.
+    l_max_5body = 0.
+    ANN = 50-100-1.
+   the input nep4 potential file is from GPUMD.
+    number of neural network parameters = 10401.
+    number of descriptor parameters = 656.
+    total number of parameters = 11057.
+    copy the last bias parameters[10400]=-12.695954 to parameters[10401]=-12.695954 
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+NEP Kokkos potential /data/home/pfsuo/pfsuo/software/build/nep-data/2023_Xu_liquid_water/nep.txt loaded successfully
+===== DEBUG: newton_pair = 1 =====
+Neighbor list info ...
+  update: every = 1 steps, delay = 10 steps, check = yes
+  max neighbors/atom: 2000, page size: 100000
+  master list distance cutoff = 7
+  ghost atom cutoff = 7
+  binsize = 7, bins = 59 59 59
+  1 neighbor lists, perpetual/occasional/extra = 1 0 0
+  (1) pair matpl/nep/kk, perpetual
+      attributes: full, newton on, kokkos_device
+      pair build: full/bin/kk/device
+      stencil: full/bin/3d
+      bin: kk/device
+Setting up Verlet run ...
+  Unit style    : metal
+  Current step  : 0
+  Time step     : 0.0005
+Per MPI rank memory allocation (min/avg/max) = 1213 | 1213 | 1213 Mbytes
+   Step          Temp          PotEng         KinEng         TotEng         Press          Volume    
+         0   300           -357749.58      267564.74     -90184.837     -40209.724      68746257     
+       100   333.1046      -392181         297090.15     -95090.85       3535.7574      68746257     
+       200   335.33541     -400673.25      299079.77     -101593.48     -4498.1283      68746257     
+       300   334.52478     -407220.96      298356.79     -108864.18     -2037.4591      68746257     
+       400   331.82749     -412571.55      295951.12     -116620.43     -2153.3216      68746257     
+       500   326.91418     -415963.05      291569.02     -124394.03     -1947.4092      68746257     
+       600   324.07351     -421077.2       289035.48     -132041.72     -2413.1889      68746257     
+       700   322.12435     -426868.78      287297.06     -139571.72     -1860.3239      68746257     
+       800   319.69273     -432088.18      285128.34     -146959.84     -1931.4038      68746257     
+       900   317.21616     -437062.89      282919.53     -154143.36     -1989.7433      68746257     
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  Kokkos failed to allocate memory for label "Kokkos::SortImpl::BinSortFunctor::sorted_values".  Allocation using MemorySpace named "Cuda" failed with the following error:  Allocation of size 157.9 M failed, likely due to insufficient memory.  (The allocation mechanism was cudaMalloc().  The Cuda allocation returned the error code ""cudaErrorMemoryAllocation".)
+
+[gn201:04288] *** Process received signal ***
+[gn201:04288] Signal: Aborted (6)
+[gn201:04288] Signal code:  (-6)
+[gn201:04288] [ 0] /lib64/libpthread.so.0(+0xf630)[0x2b35575d1630]
+[gn201:04288] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2b355ac44387]
+[gn201:04288] [ 2] /lib64/libc.so.6(abort+0x148)[0x2b355ac45a78]
+[gn201:04288] [ 3] /lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x165)[0x2b355a750a95]
+[gn201:04288] [ 4] /lib64/libstdc++.so.6(+0x5ea06)[0x2b355a74ea06]
+[gn201:04288] [ 5] /lib64/libstdc++.so.6(+0x5ea33)[0x2b355a74ea33]
+[gn201:04288] [ 6] /lib64/libstdc++.so.6(+0x5ec53)[0x2b355a74ec53]
+[gn201:04288] [ 7] lmp[0x4e6eb3]
+[gn201:04288] [ 8] lmp[0x2122395]
+[gn201:04288] [ 9] lmp[0x212a01c]
+[gn201:04288] [10] lmp[0x2128604]
+[gn201:04288] [11] lmp[0x137929b]
+[gn201:04288] [12] lmp[0x136b709]
+[gn201:04288] [13] lmp[0x8d1265]
+[gn201:04288] [14] lmp[0x8d3a02]
+[gn201:04288] [15] lmp[0xd03c16]
+[gn201:04288] [16] lmp[0x6600bb]
+[gn201:04288] [17] lmp[0x565915]
+[gn201:04288] [18] lmp[0x565bed]
+[gn201:04288] [19] lmp[0x4e903a]
+[gn201:04288] [20] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2b355ac30555]
+[gn201:04288] [21] lmp[0x546695]
+[gn201:04288] *** End of error message ***
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 4288 on node gn201 exited on signal 6 (Aborted).
+--------------------------------------------------------------------------

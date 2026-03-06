@@ -1,0 +1,40 @@
+Starting job 3838074 at  Thu Jan 22 12:16:20 CST 2026
+SLURM_SUBMIT_DIR is /data/home/pfsuo/pfsuo/software/build/MatPL_paper/MD_simulation/water/1GPU/MACE/1x2x2
+Running on nodes: gn202
+/share/app/anaconda3/envs/MACE/lib/python3.11/site-packages/e3nn/o3/_wigner.py:10: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  _Jd, _W3j_flat, _W3j_indices = torch.load(os.path.join(os.path.dirname(__file__), 'constants.pt'))
+/share/app/anaconda3/envs/MACE/lib/python3.11/site-packages/mace/calculators/mace.py:197: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  torch.load(f=model_path, map_location=device)
+WARNING:root:Default dtype float32 does not match model dtype float64, converting models to float32.
+WARNING: NPT: Setting the center-of-mass momentum to zero (was -3.27841 -30.2125 13.091)
+cuequivariance or cuequivariance_torch is not available. Cuequivariance acceleration will be disabled.
+/share/app/anaconda3/envs/MACE/lib/python3.11/site-packages/mace/calculators/foundations_models/2023-12-03-mace-128-L1_epoch-199.model
+Using Materials Project MACE for MACECalculator with /share/app/anaconda3/envs/MACE/lib/python3.11/site-packages/mace/calculators/foundations_models/2023-12-03-mace-128-L1_epoch-199.model
+Using float32 for MACECalculator, which is faster but less accurate. Recommended for MD. Use float64 for geometry optimization.
+Beginning Nose-Hoover NPT equilibration
+Speed is 6.445133E+03 atoms-step/s
+MatPL_Natoms
+[648, 5184, 17496, 41472, 81000, 139968, 222264, 331776, 472392, 648000, 862488, 1119744, 1423656, 1778112, 2187000, 2654208, 3183624, 3779136, 4444632]
+MatPL_Speeds
+[443513.0, 3363000.0, 7986000.0, 11466000.0, 13787000.0, 14618000.0, 14441000.0, 15037000.0, 15121000.0, 15343000.0, 15392000.0, 15455000.0, 15552000.0, 15711000.0, 15299000.0, 15725000.0, 15575000.0, 15845000.0, 15695000.0]
+GPUMD_Natoms
+[648, 5184, 17496, 41472, 81000, 139968, 222264, 331776, 472392, 648000, 862488, 1119744, 1423656, 1778112, 2187000, 2654208, 3183624, 3779136, 4444632]
+GPUMD_Speeds
+[381535.0, 2584250.0, 5110620.0, 6648490.0, 9387370.0, 9678060.0, 9545970.0, 9770670.0, 9899300.0, 10435300.0, 10371600.0, 10305500.0, 10179900.0, 10254500.0, 10350300.0, 10444600.0, 10366100.0, 10353900.0, 10236900.0]
+DP_Natoms
+[648, 5184, 17496, 41472, 81000]
+DP_Speeds
+[137748.0, 193896.0, 201377.0, 183056.0, 201291.0]
+MACE_Natoms
+[648, 1296, 2592, 5184]
+MACE_Speeds
+[5372.81, 6076.809, 6445.133, 7745.781]
+eqV2_Natoms
+[480]
+eqV2_Speeds
+[2569.612]
+eSEN_Natoms
+[330]
+eSEN_Speeds
+[656.7206]
+Job 3838074 done at  Thu Jan 22 13:06:36 CST 2026

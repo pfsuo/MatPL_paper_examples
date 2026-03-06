@@ -1,0 +1,236 @@
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+LAMMPS (2 Aug 2023 - Update 4)
+KOKKOS mode with Kokkos version 3.7.2 is enabled (src/KOKKOS/kokkos.cpp:108)
+  will use up to 4 GPU(s) per node
+WARNING: When using a single thread, the Kokkos Serial backend (i.e. Makefile.kokkos_mpi_only) gives better performance than the OpenMP backend (src/KOKKOS/kokkos.cpp:238)
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+  using 1 OpenMP thread(s) per MPI task
+Reading data file ...
+  orthogonal box = (0 0 0) to (5.075568 5.075568 5.075568)
+  2 by 2 by 2 MPI processor grid
+  reading atoms ...
+  12 atoms
+  read_data CPU = 0.011 seconds
+Replication is creating a 124x124x124 = 1906624 times larger system...
+  orthogonal box = (0 0 0) to (629.37043 629.37043 629.37043)
+  2 by 2 by 2 MPI processor grid
+  22879488 atoms
+  replicate CPU = 0.500 seconds
+Use the NEP4 potential with 2 atom types.
+    type 0 (O).
+    type 1 (Hf).
+    has the universal ZBL with inner cutoff 0.75 A and outer cutoff 1.5 A.
+    radial cutoff = 8 A.
+    angular cutoff = 4 A.
+    MN_radial = 250.
+    MN_angular = 44.
+    enlarged MN_radial = 313.
+    enlarged MN_angular = 55.
+    n_max_radial = 4.
+    n_max_angular = 4.
+    basis_size_radial = 12.
+    basis_size_angular = 12.
+    l_max_3body = 4.
+    l_max_4body = 2.
+    l_max_5body = 0.
+    ANN = 30-30-1.
+   the input nep4 potential file is from GPUMD.
+    number of neural network parameters = 1921.
+    number of descriptor parameters = 520.
+    total number of parameters = 2441.
+    copy the last bias parameters[1920]=3.915526 to parameters[1921]=3.915526 
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+NEP Kokkos potential /data/home/pfsuo/pfsuo/software/build/nep-data/2023_Zhang_HfO2/nep.txt loaded successfully
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+Neighbor list info ...
+  update: every = 1 steps, delay = 10 steps, check = yes
+  max neighbors/atom: 2000, page size: 100000
+  master list distance cutoff = 9
+  ghost atom cutoff = 9
+  binsize = 9, bins = 70 70 70
+  1 neighbor lists, perpetual/occasional/extra = 1 0 0
+  (1) pair matpl/nep/kk, perpetual
+      attributes: full, newton on, kokkos_device
+      pair build: full/bin/kk/device
+      stencil: full/bin/3d
+      bin: kk/device
+Setting up Verlet run ...
+  Unit style    : metal
+  Current step  : 0
+  Time step     : 0.002
+Per MPI rank memory allocation (min/avg/max) = 545.6 | 545.6 | 545.6 Mbytes
+   Step          Temp          PotEng         KinEng         TotEng         Press          Volume    
+         0   1200          -2.3104228e+08  3548887       -2.2749339e+08  13745.149      2.4929812e+08
+       100   689.96661     -2.2936275e+08  2040511.3     -2.2732224e+08  85083.221      2.4929812e+08
+       200   728.41771     -2.2920123e+08  2154226.8     -2.2704701e+08  94569.484      2.4929812e+08
+       300   796.20423     -2.2905413e+08  2354699       -2.2669943e+08  100446.87      2.4929812e+08
+       400   869.82207     -2.288699e+08   2572416.8     -2.2629749e+08  106461.45      2.4929812e+08
+       500   945.29574     -2.2865548e+08  2795623.1     -2.2585986e+08  112489.88      2.4929812e+08
+       600   1020.8727     -2.2842879e+08  3019134.9     -2.2540966e+08  118361.72      2.4929812e+08
+       700   1093.9073     -2.2821161e+08  3235127.8     -2.2497648e+08  123725.24      2.4929812e+08
+       800   1158.0095     -2.2802393e+08  3424703.9     -2.2459923e+08  128204.96      2.4929812e+08
+       900   1202.4555     -2.2789096e+08  3556149       -2.2433481e+08  131314.69      2.4929812e+08
+      1000   1210.3076     -2.2786807e+08  3579370.9     -2.242887e+08   131943.97      2.4929812e+08
+      1100   1191.9967     -2.2793003e+08  3525217.9     -2.2440481e+08  130754.86      2.4929812e+08
+      1200   1198.1026     -2.2791364e+08  3543275.5     -2.2437036e+08  131225.48      2.4929812e+08
+      1300   1207.6592     -2.2788468e+08  3571538.2     -2.2431314e+08  131939.11      2.4929812e+08
+      1400   1196.3575     -2.2792266e+08  3538114.7     -2.2438455e+08  131218.24      2.4929812e+08
+      1500   1196.1956     -2.2792364e+08  3537635.7     -2.24386e+08    131283.03      2.4929812e+08
+      1600   1205.9567     -2.2789551e+08  3566503.5     -2.2432901e+08  131968.34      2.4929812e+08
+      1700   1198.934      -2.2791874e+08  3545734.5     -2.2437301e+08  131584.96      2.4929812e+08
+      1800   1195.6312     -2.2793154e+08  3535966.8     -2.2439557e+08  131442.36      2.4929812e+08
+      1900   1204.1881     -2.2790547e+08  3561272.8     -2.243442e+08   132088.82      2.4929812e+08
+      2000   1201.0115     -2.2791671e+08  3551878.4     -2.2436483e+08  131958.92      2.4929812e+08
+      2100   1195.8673     -2.2793638e+08  3536665       -2.2439971e+08  131643.73      2.4929812e+08
+      2200   1202.4743     -2.2791513e+08  3556204.6     -2.2435892e+08  132244.75      2.4929812e+08
+      2300   1202.249      -2.2791589e+08  3555538.1     -2.2436035e+08  132280.48      2.4929812e+08
+      2400   1195.9016     -2.2793688e+08  3536766.4     -2.2440011e+08  131980.8       2.4929812e+08
+      2500   1200.6359     -2.2792304e+08  3550767.7     -2.2437228e+08  132361.1       2.4929812e+08
+      2600   1202.7808     -2.2791566e+08  3557110.9     -2.2435855e+08  132603.33      2.4929812e+08
+      2700   1196.9246     -2.2793767e+08  3539791.8     -2.2439788e+08  132256.19      2.4929812e+08
+      2800   1199.5538     -2.2793173e+08  3547567.4     -2.2438417e+08  132438.3       2.4929812e+08
+      2900   1203.3359     -2.2791893e+08  3558752.5     -2.2436017e+08  132804.43      2.4929812e+08
+      3000   1197.9884     -2.2793643e+08  3542937.7     -2.243935e+08   132499.91      2.4929812e+08
+      3100   1198.429      -2.2793765e+08  3544240.9     -2.2439341e+08  132470.32      2.4929812e+08
+      3200   1203.1018     -2.2792186e+08  3558060.2     -2.243638e+08   132856.66      2.4929812e+08
+      3300   1199.4261     -2.27935e+08    3547189.8     -2.2438781e+08  132697.47      2.4929812e+08
+      3400   1197.7136     -2.2794229e+08  3542125.2     -2.2440017e+08  132540.68      2.4929812e+08
+      3500   1202.2997     -2.2792641e+08  3555688.3     -2.2437072e+08  132981.91      2.4929812e+08
+      3600   1200.6642     -2.2793321e+08  3550851.2     -2.2438236e+08  132914.79      2.4929812e+08
+      3700   1197.3574     -2.2794449e+08  3541071.8     -2.2440342e+08  132702.18      2.4929812e+08
+      3800   1201.2483     -2.2793139e+08  3552578.7     -2.2437881e+08  133050.92      2.4929812e+08
+      3900   1201.7043     -2.2793312e+08  3553927.2     -2.2437919e+08  133070.68      2.4929812e+08
+      4000   1197.3734     -2.279454e+08   3541118.9     -2.2440428e+08  132844.88      2.4929812e+08
+      4100   1200.5362     -2.27937e+08    3550472.6     -2.2438653e+08  133099.93      2.4929812e+08
+      4200   1201.9318     -2.2793186e+08  3554600.1     -2.2437726e+08  133252.37      2.4929812e+08
+      4300   1197.9071     -2.2794555e+08  3542697.4     -2.2440285e+08  132988.9       2.4929812e+08
+      4400   1199.5254     -2.2794167e+08  3547483.3     -2.2439419e+08  133128.56      2.4929812e+08
+      4500   1202.4564     -2.2793368e+08  3556151.5     -2.2437753e+08  133360.54      2.4929812e+08
+      4600   1198.851      -2.2794543e+08  3545489       -2.2439994e+08  133114.92      2.4929812e+08
+      4700   1198.7799     -2.279456e+08   3545278.6     -2.2440032e+08  133142.25      2.4929812e+08
+      4800   1201.937      -2.2793438e+08  3554615.4     -2.2437977e+08  133417.77      2.4929812e+08
+      4900   1199.61       -2.279441e+08   3547733.7     -2.2439636e+08  133258.9       2.4929812e+08
+      5000   1198.505      -2.2794938e+08  3544465.7     -2.2440492e+08  133214.24      2.4929812e+08
+      5100   1201.8081     -2.2793833e+08  3554234.3     -2.243841e+08   133513.15      2.4929812e+08
+      5200   1200.2858     -2.279427e+08   3549732.1     -2.2439297e+08  133444.64      2.4929812e+08
+      5300   1198.2735     -2.2795134e+08  3543780.9     -2.2440756e+08  133339.7       2.4929812e+08
+      5400   1201.2811     -2.279418e+08   3552675.6     -2.2438913e+08  133568.93      2.4929812e+08
+      5500   1201.0791     -2.2794246e+08  3552078.3     -2.2439038e+08  133597.64      2.4929812e+08
+      5600   1198.6043     -2.2795309e+08  3544759.2     -2.2440833e+08  133403.55      2.4929812e+08
+      5700   1200.1565     -2.2794447e+08  3549349.9     -2.2439512e+08  133648.1       2.4929812e+08
+      5800   1201.5101     -2.2794189e+08  3553352.8     -2.2438853e+08  133737.91      2.4929812e+08
+      5900   1198.6217     -2.2795241e+08  3544810.8     -2.2440759e+08  133552.66      2.4929812e+08
+      6000   1199.6807     -2.2794932e+08  3547942.5     -2.2440138e+08  133622.27      2.4929812e+08
+      6100   1201.5214     -2.2794161e+08  3553386.5     -2.2438823e+08  133826.21      2.4929812e+08
+      6200   1198.9978     -2.279512e+08   3545923.1     -2.2440528e+08  133651.51      2.4929812e+08
+      6300   1198.886      -2.2795212e+08  3545592.3     -2.2440653e+08  133679.88      2.4929812e+08
+      6400   1201.5917     -2.2794392e+08  3553594.3     -2.2439033e+08  133874.73      2.4929812e+08
+      6500   1199.9197     -2.2795088e+08  3548649.4     -2.2440223e+08  133763         2.4929812e+08
+      6600   1198.5742     -2.2795459e+08  3544670.2     -2.2440992e+08  133733.4       2.4929812e+08
+      6700   1201.5309     -2.2794721e+08  3553414.6     -2.243938e+08   133948.74      2.4929812e+08
+      6800   1200.4798     -2.2795006e+08  3550305.9     -2.2439975e+08  133955.51      2.4929812e+08
+      6900   1198.3236     -2.2795599e+08  3543929.1     -2.2441206e+08  133845.81      2.4929812e+08
+      7000   1200.7331     -2.2794906e+08  3551054.9     -2.24398e+08    133987.52      2.4929812e+08
+      7100   1201.0098     -2.2794956e+08  3551873.4     -2.2439769e+08  134062.57      2.4929812e+08
+      7200   1198.596      -2.279576e+08   3544734.9     -2.2441287e+08  133933.83      2.4929812e+08
+      7300   1200.1463     -2.2795217e+08  3549319.6     -2.2440285e+08  134081.43      2.4929812e+08
+      7400   1201.3342     -2.279493e+08   3552832.9     -2.2439647e+08  134160.83      2.4929812e+08
+      7500   1198.8887     -2.2795754e+08  3545600.3     -2.2441194e+08  134051.54      2.4929812e+08
+      7600   1199.651      -2.2795532e+08  3547854.7     -2.2440746e+08  134106.14      2.4929812e+08
+      7700   1201.5216     -2.2794977e+08  3553387       -2.2439638e+08  134310.23      2.4929812e+08
+      7800   1199.2596     -2.2795638e+08  3546697.2     -2.2440969e+08  134151.55      2.4929812e+08
+      7900   1198.8788     -2.2795691e+08  3545571       -2.2441134e+08  134141.56      2.4929812e+08
+      8000   1201.4126     -2.2795056e+08  3553064.5     -2.243975e+08   134297.82      2.4929812e+08
+      8100   1199.7045     -2.2795512e+08  3548013.1     -2.244071e+08   134222.17      2.4929812e+08
+      8200   1198.9688     -2.2795977e+08  3545837.3     -2.2441393e+08  134155.23      2.4929812e+08
+      8300   1201.2436     -2.2795261e+08  3552564.7     -2.2440005e+08  134333.94      2.4929812e+08
+      8400   1200.5838     -2.2795475e+08  3550613.6     -2.2440413e+08  134274.64      2.4929812e+08
+      8500   1198.8988     -2.2796091e+08  3545630.2     -2.2441528e+08  134164.1       2.4929812e+08
+      8600   1200.5239     -2.2795357e+08  3550436.2     -2.2440314e+08  134325.56      2.4929812e+08
+      8700   1200.575      -2.2795239e+08  3550587.5     -2.2440181e+08  134378.23      2.4929812e+08
+      8800   1198.6593     -2.2796003e+08  3544921.9     -2.244151e+08   134221.9       2.4929812e+08
+      8900   1200.223      -2.2795622e+08  3549546.4     -2.2440668e+08  134306.23      2.4929812e+08
+      9000   1201.3726     -2.2795316e+08  3552946.2     -2.2440022e+08  134409.72      2.4929812e+08
+      9100   1199.1774     -2.2796012e+08  3546454.3     -2.2441366e+08  134239.87      2.4929812e+08
+      9200   1199.9225     -2.279588e+08   3548657.7     -2.2441015e+08  134247.04      2.4929812e+08
+      9300   1201.1332     -2.2795226e+08  3552238.2     -2.2440002e+08  134347         2.4929812e+08
+      9400   1199.4685     -2.2795825e+08  3547315       -2.2441093e+08  134274.34      2.4929812e+08
+      9500   1199.0738     -2.2795934e+08  3546147.7     -2.244132e+08   134226.46      2.4929812e+08
+      9600   1201.0139     -2.279529e+08   3551885.4     -2.2440102e+08  134352.48      2.4929812e+08
+      9700   1199.6843     -2.2795635e+08  3547953.4     -2.244084e+08   134287.65      2.4929812e+08
+      9800   1199.0197     -2.2796051e+08  3545987.8     -2.2441452e+08  134179.88      2.4929812e+08
+      9900   1201.0244     -2.2795475e+08  3551916.4     -2.2440284e+08  134315.15      2.4929812e+08
+     10000   1200.369      -2.279561e+08   3549978.2     -2.2440612e+08  134272.19      2.4929812e+08
+Loop time of 3717.09 on 8 procs for 10000 steps with 22879488 atoms
+
+Performance: 0.465 ns/day, 51.626 hours/ns, 2.690 timesteps/s, 61.552 Matom-step/s
+64.4% CPU use with 8 MPI tasks x 1 OpenMP threads
+
+MPI task timing breakdown:
+Section |  min time  |  avg time  |  max time  |%varavg| %total
+---------------------------------------------------------------
+Pair    | 3401.6     | 3403.4     | 3405.3     |   2.0 | 91.56
+Neigh   | 205.57     | 207.4      | 209.22     |   8.3 |  5.58
+Comm    | 91.026     | 91.176     | 91.305     |   1.0 |  2.45
+Output  | 0.030235   | 0.43678    | 0.82404    |  50.1 |  0.01
+Modify  | 11.28      | 11.4       | 11.535     |   2.5 |  0.31
+Other   |            | 3.251      |            |       |  0.09
+
+Nlocal:    2.85994e+06 ave 2.86186e+06 max  2.8581e+06 min
+Histogram: 2 0 1 1 0 1 0 1 0 2
+Nghost:         520436 ave      521645 max      518699 min
+Histogram: 2 0 0 0 1 0 2 0 1 2
+Neighs:              0 ave           0 max           0 min
+Histogram: 8 0 0 0 0 0 0 0 0 0
+FullNghs:  7.75386e+08 ave 7.76361e+08 max 7.74282e+08 min
+Histogram: 1 1 0 0 1 1 2 0 1 1
+
+Total # of neighbors = 6.2030896e+09
+Ave neighs/atom = 271.12012
+Neighbor list builds = 999
+Dangerous builds = 998
+Total wall time: 1:02:04

@@ -1,0 +1,257 @@
+LAMMPS (2 Aug 2023)
+  using 1 OpenMP thread(s) per MPI task
+Loaded 1 plugins from /data/home/pfsuo/pfsuo/software/deepmd-kit-2.2.9/lib/deepmd_lmp
+variable        NSTEPS          equal 10000
+variable        THERMO_FREQ     equal 100
+variable        DUMP_FREQ       equal 10
+variable        restart         equal 0
+variable        TEMP            equal 300.000000
+variable        PRESS           equal 0.000000
+variable        TAU_T           equal 0.050000
+variable        TAU_P           equal 0.500000
+
+units           metal
+boundary        p p p
+atom_style      atomic
+
+neighbor        1.0 bin
+neigh_modify    delay 10
+
+#box              tilt large
+if "${restart} > 0" then "read_restart lmps.restart.*" else "read_data ../../../216_water/conf.lmp"
+read_data ../../../216_water/conf.lmp
+Reading data file ...
+  orthogonal box = (0 0 0) to (18.6206 18.6206 18.6206)
+  1 by 1 by 1 MPI processor grid
+  reading atoms ...
+  648 atoms
+  read_data CPU = 0.003 seconds
+#change_box       all triclinic
+replicate   5 5 5
+Replication is creating a 5x5x5 = 125 times larger system...
+  orthogonal box = (0 0 0) to (93.103 93.103 93.103)
+  1 by 1 by 1 MPI processor grid
+  81000 atoms
+  replicate CPU = 0.005 seconds
+
+mass   1    15.999
+mass   2    1.00784
+pair_style   deepmd  ../../../H2O-Phase-Diagram-model_compressed.pb
+Summary of lammps deepmd module ...
+  >>> Info of deepmd-kit:
+  installed to:       /data/home/pfsuo/pfsuo/software/deepmd-kit-2.2.9
+  source:             
+  source branch:      HEAD
+  source commit:      5ec5eae
+  source commit at:   2024-02-04 18:53:26 -0500
+  support model ver.: 1.1 
+  build variant:      cuda
+  build with tf inc:  /data/home/pfsuo/pfsuo/software/deepmd-kit-2.2.9/lib/python3.11/site-packages/tensorflow/include;/data/home/pfsuo/pfsuo/software/deepmd-kit-2.2.9/include
+  build with tf lib:  /data/home/pfsuo/pfsuo/software/deepmd-kit-2.2.9/lib/python3.11/site-packages/tensorflow/libtensorflow_cc.so.2
+  set tf intra_op_parallelism_threads: 0
+  set tf inter_op_parallelism_threads: 0
+  >>> Info of lammps module:
+  use deepmd-kit at:  /data/home/pfsuo/pfsuo/software/deepmd-kit-2.2.9pair_coeff       * * O H
+
+thermo_style    custom step temp pe ke etotal press vol
+thermo          ${THERMO_FREQ}
+thermo          100
+
+if "${restart} == 0" then "velocity        all create ${TEMP} 35826"
+velocity        all create ${TEMP} 35826
+velocity        all create 300 35826
+fix             1 all nvt temp ${TEMP} ${TEMP} ${TAU_T} #iso ${PRESS} ${PRESS} ${TAU_P}
+fix             1 all nvt temp 300 ${TEMP} ${TAU_T} 
+fix             1 all nvt temp 300 300 ${TAU_T} 
+fix             1 all nvt temp 300 300 0.05 
+
+timestep        0.000500
+run             ${NSTEPS} upto
+run             10000 upto
+
+CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE
+
+Your simulation uses code contributions which should be cited:
+
+- USER-DEEPMD package:
+
+@article{Wang_ComputPhysCommun_2018_v228_p178,
+  author = {Wang, Han and Zhang, Linfeng and Han, Jiequn and E, Weinan},
+  doi = {10.1016/j.cpc.2018.03.016},
+  url = {https://doi.org/10.1016/j.cpc.2018.03.016},
+  year = 2018,
+  month = {jul},
+  publisher = {Elsevier {BV}},
+  volume = 228,
+  journal = {Comput. Phys. Commun.},
+  title = {{DeePMD-kit: A deep learning package for many-body potential energy representation and molecular dynamics}},
+  pages = {178--184}
+}
+@misc{Zeng_JChemPhys_2023_v159_p054801,
+  title  = {{DeePMD-kit v2: A software package for deep potential models}},
+  author =   {Jinzhe Zeng and Duo Zhang and Denghui Lu and Pinghui Mo and Zeyu Li
+         and Yixiao Chen and Mari{\'a}n Rynik and Li'ang Huang and Ziyao Li and 
+         Shaochen Shi and Yingze Wang and Haotian Ye and Ping Tuo and Jiabin
+         Yang and Ye Ding and Yifan Li and Davide Tisi and Qiyu Zeng and Han 
+         Bao and Yu Xia and Jiameng Huang and Koki Muraoka and Yibo Wang and 
+         Junhan Chang and Fengbo Yuan and Sigbj{\o}rn L{\o}land Bore and Chun
+         Cai and Yinnian Lin and Bo Wang and Jiayan Xu and Jia-Xin Zhu and 
+         Chenxing Luo and Yuzhi Zhang and Rhys E A Goodall and Wenshuo Liang
+         and Anurag Kumar Singh and Sikai Yao and Jingchao Zhang and Renata
+         Wentzcovitch and Jiequn Han and Jie Liu and Weile Jia and Darrin M
+         York and Weinan E and Roberto Car and Linfeng Zhang and Han Wang},
+  journal =  {J. Chem. Phys.},
+  volume =   159,
+  issue =    5,  
+  year =    2023,
+  pages  =   054801,
+  doi =      {10.1063/5.0155600},
+}
+
+CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE-CITE
+
+Generated 0 of 1 mixed pair_coeff terms from geometric mixing rule
+Neighbor list info ...
+  update: every = 1 steps, delay = 10 steps, check = yes
+  max neighbors/atom: 2000, page size: 100000
+  master list distance cutoff = 7
+  ghost atom cutoff = 7
+  binsize = 3.5, bins = 27 27 27
+  1 neighbor lists, perpetual/occasional/extra = 1 0 0
+  (1) pair deepmd, perpetual
+      attributes: full, newton on
+      pair build: full/bin/atomonly
+      stencil: full/bin/3d
+      bin: standard
+Per MPI rank memory allocation (min/avg/max) = 67.57 | 67.57 | 67.57 Mbytes
+   Step          Temp          PotEng         KinEng         TotEng         Press          Volume    
+         0   300           -434460.49      3140.9827     -431319.51     -40760.405      807032.5     
+       100   324.70963     -434825.87      3399.6912     -431426.18      4339.0912      807032.5     
+       200   322.10304     -434946.3       3372.4003     -431573.9      -3097.0361      807032.5     
+       300   318.58071     -435062.84      3335.5217     -431727.32     -2066.0354      807032.5     
+       400   315.97003     -435189.84      3308.1881     -431881.66     -1731.1619      807032.5     
+       500   310.23058     -435272.33      3248.0963     -432024.23     -1599.4224      807032.5     
+       600   306.81965     -435358.13      3212.3841     -432145.75     -2055.5385      807032.5     
+       700   304.29727     -435437.23      3185.9749     -432251.25     -1799.5572      807032.5     
+       800   300.84376     -435487.23      3149.8169     -432337.41     -1853.5         807032.5     
+       900   300.01265     -435545.07      3141.1152     -432403.96     -1928.3592      807032.5     
+      1000   298.88263     -435573.57      3129.284      -432444.28     -1554.4529      807032.5     
+      1100   300.21228     -435598.89      3143.2053     -432455.68     -1834.471       807032.5     
+      1200   298.94158     -435592.16      3129.9012     -432462.26     -1392.9104      807032.5     
+      1300   301.15615     -435625.24      3153.0875     -432472.16     -1031.2901      807032.5     
+      1400   299.71612     -435630.21      3138.0105     -432492.2      -1064.3206      807032.5     
+      1500   300.3903      -435650.27      3145.0692     -432505.2      -1044.1871      807032.5     
+      1600   300.37813     -435654.14      3144.9417     -432509.2      -1123.2566      807032.5     
+      1700   300.59614     -435664.11      3147.2243     -432516.89     -1130.3891      807032.5     
+      1800   300.35559     -435685.1       3144.7058     -432540.39     -1012.4327      807032.5     
+      1900   299.52878     -435701.91      3136.0491     -432565.86     -902.3929       807032.5     
+      2000   300.21023     -435723.97      3143.1839     -432580.79     -777.34593      807032.5     
+      2100   299.82281     -435729.5       3139.1275     -432590.38     -781.65983      807032.5     
+      2200   301.23043     -435744.82      3153.8653     -432590.95     -514.8659       807032.5     
+      2300   299.66443     -435732.36      3137.4694     -432594.89     -940.13394      807032.5     
+      2400   299.76203     -435734.46      3138.4912     -432595.97     -664.78778      807032.5     
+      2500   299.68444     -435736.82      3137.6788     -432599.14     -747.21663      807032.5     
+      2600   300.17566     -435751.16      3142.8219     -432608.34     -946.03665      807032.5     
+      2700   300.04037     -435767.26      3141.4055     -432625.85     -459.46253      807032.5     
+      2800   299.17479     -435764.29      3132.3428     -432631.94     -676.08994      807032.5     
+      2900   300.81227     -435781.32      3149.4871     -432631.83     -765.63464      807032.5     
+      3000   301.15764     -435794.36      3153.1032     -432641.26     -904.19123      807032.5     
+      3100   299.35224     -435787.45      3134.2007     -432653.25     -896.80533      807032.5     
+      3200   299.65856     -435795.39      3137.4079     -432657.98     -766.50753      807032.5     
+      3300   299.83549     -435797.65      3139.2603     -432658.39     -458.87738      807032.5     
+      3400   300.74016     -435811.18      3148.7322     -432662.45     -814.79017      807032.5     
+      3500   299.5292      -435804.98      3136.0535     -432668.93     -369.05593      807032.5     
+      3600   299.61644     -435813.08      3136.9669     -432676.11     -335.90595      807032.5     
+      3700   299.97127     -435829.43      3140.6819     -432688.75     -513.23918      807032.5     
+      3800   299.11702     -435830.12      3131.738      -432698.38     -747.07057      807032.5     
+      3900   300.21226     -435844.21      3143.2051     -432701        -698.05519      807032.5     
+      4000   300.64098     -435856.97      3147.6938     -432709.27     -701.29623      807032.5     
+      4100   300.36385     -435864.48      3144.7922     -432719.69     -459.93595      807032.5     
+      4200   299.66351     -435864.93      3137.4597     -432727.47     -520.54141      807032.5     
+      4300   300.35235     -435875.49      3144.6718     -432730.82     -626.08496      807032.5     
+      4400   300.51568     -435878.98      3146.3819     -432732.6      -644.09266      807032.5     
+      4500   299.76419     -435871.47      3138.5138     -432732.95     -575.18672      807032.5     
+      4600   299.24388     -435866.78      3133.0662     -432733.71     -474.78328      807032.5     
+      4700   301.72074     -435888.96      3158.9988     -432729.96     -433.02982      807032.5     
+      4800   300.49338     -435883.9       3146.1484     -432737.75     -544.57788      807032.5     
+      4900   300.02181     -435897.26      3141.211      -432756.05     -204.06342      807032.5     
+      5000   299.11006     -435901.23      3131.6652     -432769.56     -504.13017      807032.5     
+      5100   300.35419     -435909.76      3144.6911     -432765.07     -463.46892      807032.5     
+      5200   299.88081     -435890.67      3139.7348     -432750.94     -474.67345      807032.5     
+      5300   300.84899     -435900.25      3149.8716     -432750.38     -389.6569       807032.5     
+      5400   300.04243     -435906.91      3141.427      -432765.48     -515.59947      807032.5     
+      5500   299.50782     -435913.01      3135.8297     -432777.18     -429.26043      807032.5     
+      5600   300.32165     -435927.04      3144.3504     -432782.69     -439.35965      807032.5     
+      5700   299.37061     -435918.94      3134.393      -432784.55     -234.65823      807032.5     
+      5800   300.05829     -435914.68      3141.5931     -432773.08     -569.62029      807032.5     
+      5900   301.09122     -435915.41      3152.4078     -432763        -299.8984       807032.5     
+      6000   300.79379     -435925.64      3149.2937     -432776.34     -490.79236      807032.5     
+      6100   298.97181     -435925.28      3130.2177     -432795.06     -336.43818      807032.5     
+      6200   297.35113     -435917.85      3113.2493     -432804.6      -457.14721      807032.5     
+      6300   300.06901     -435940.44      3141.7053     -432798.73     -780.56417      807032.5     
+      6400   299.6475      -435924.06      3137.2921     -432786.77     -469.71195      807032.5     
+      6500   301.63255     -435939.4       3158.0754     -432781.32     -165.60492      807032.5     
+      6600   300.72624     -435942.25      3148.5865     -432793.66     -408.13597      807032.5     
+      6700   299.17779     -435945.76      3132.3743     -432813.39     -172.66812      807032.5     
+      6800   300.65917     -435960.14      3147.8842     -432812.25     -256.56705      807032.5     
+      6900   299.90338     -435947.55      3139.9712     -432807.58     -188.39432      807032.5     
+      7000   300.42607     -435952.15      3145.4437     -432806.71     -278.83694      807032.5     
+      7100   300.11714     -435952.73      3142.2092     -432810.52     -430.5598       807032.5     
+      7200   300.43319     -435960.58      3145.5182     -432815.06     -451.89044      807032.5     
+      7300   300.1517      -435966.99      3142.571      -432824.42     -313.44381      807032.5     
+      7400   300.02239     -435975.22      3141.2172     -432834        -611.48969      807032.5     
+      7500   298.95476     -435970.54      3130.0392     -432840.5      -407.90688      807032.5     
+      7600   300.10626     -435958.03      3142.0953     -432815.94     -258.27289      807032.5     
+      7700   300.85982     -435958.11      3149.985      -432808.13     -135.33246      807032.5     
+      7800   301.8695      -435988.74      3160.5563     -432828.18     -373.20925      807032.5     
+      7900   300.24556     -435987.46      3143.5538     -432843.91     -169.06213      807032.5     
+      8000   299.15159     -435973.95      3132.0999     -432841.85     -303.55027      807032.5     
+      8100   301.28321     -435982.09      3154.4179     -432827.67      5.2716864      807032.5     
+      8200   300.99322     -435975.71      3151.3817     -432824.33     -253.53831      807032.5     
+      8300   299.68898     -435983.15      3137.7263     -432845.43     -254.29135      807032.5     
+      8400   299.14135     -435979.09      3131.9928     -432847.1      -307.75297      807032.5     
+      8500   299.82613     -435981.15      3139.1624     -432841.98     -364.84179      807032.5     
+      8600   300.70711     -435979.79      3148.3861     -432831.41     -177.66248      807032.5     
+      8700   303.36004     -436007         3176.1621     -432830.84     -201.42726      807032.5     
+      8800   301.14415     -436010.47      3152.9619     -432857.51     -312.12172      807032.5     
+      8900   300.61499     -436011.3       3147.4217     -432863.88     -616.36477      807032.5     
+      9000   300.1881      -436010.72      3142.9522     -432867.77     -412.02819      807032.5     
+      9100   300.3581      -436019.72      3144.732      -432874.98     -33.164244      807032.5     
+      9200   299.65358     -436031.31      3137.3557     -432893.95      118.26463      807032.5     
+      9300   299.36537     -436038.11      3134.3382     -432903.77     -368.94106      807032.5     
+      9400   299.97709     -436030.13      3140.7429     -432889.39     -419.43002      807032.5     
+      9500   300.12146     -436023.47      3142.2544     -432881.22     -177.32258      807032.5     
+      9600   300.20858     -436024.45      3143.1665     -432881.28     -181.66809      807032.5     
+      9700   298.79011     -436018.53      3128.3153     -432890.22     -455.64946      807032.5     
+      9800   300.08684     -436043.24      3141.8919     -432901.35     -416.1548       807032.5     
+      9900   298.62339     -436043.19      3126.5697     -432916.62     -377.03178      807032.5     
+     10000   299.10101     -436049.63      3131.5703     -432918.06     -465.93377      807032.5     
+Loop time of 4024.03 on 1 procs for 10000 steps with 81000 atoms
+
+Performance: 0.107 ns/day, 223.557 hours/ns, 2.485 timesteps/s, 201.291 katom-step/s
+67.8% CPU use with 1 MPI tasks x 1 OpenMP threads
+
+MPI task timing breakdown:
+Section |  min time  |  avg time  |  max time  |%varavg| %total
+---------------------------------------------------------------
+Pair    | 3754.8     | 3754.8     | 3754.8     |   0.0 | 93.31
+Neigh   | 245.42     | 245.42     | 245.42     |   0.0 |  6.10
+Comm    | 5.2155     | 5.2155     | 5.2155     |   0.0 |  0.13
+Output  | 0.053889   | 0.053889   | 0.053889   |   0.0 |  0.00
+Modify  | 15.211     | 15.211     | 15.211     |   0.0 |  0.38
+Other   |            | 3.312      |            |       |  0.08
+
+Nlocal:          81000 ave       81000 max       81000 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Nghost:          42506 ave       42506 max       42506 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Neighs:              0 ave           0 max           0 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+FullNghs:  1.15946e+07 ave 1.15946e+07 max 1.15946e+07 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+
+Total # of neighbors = 11594644
+Ave neighs/atom = 143.14375
+Neighbor list builds = 691
+Dangerous builds = 0
+Total wall time: 1:07:18

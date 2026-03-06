@@ -1,0 +1,16 @@
+version      4
+type         4 Pd Cu Ni P
+zbl          1.8
+cutoff       6 4
+n_max        8 8
+basis_size   8 8
+l_max        4 2
+neuron       50
+lambda_1     0.05
+lambda_2     0.05
+lambda_e     1.0
+lambda_f     1.0
+lambda_v     0.2
+batch        1000
+population   160
+generation   1000000

@@ -1,0 +1,8 @@
+{
+    "model_type": "NEP",
+    "model_load_file": "../model_record/nep5.txt",
+    "format": "extxyz",
+    "test_data": [
+        "../../GPUMD/train.xyz"
+    ]
+}

@@ -1,0 +1,109 @@
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+LAMMPS (2 Aug 2023 - Update 4)
+KOKKOS mode with Kokkos version 3.7.2 is enabled (src/KOKKOS/kokkos.cpp:108)
+  will use up to 2 GPU(s) per node
+WARNING: When using a single thread, the Kokkos Serial backend (i.e. Makefile.kokkos_mpi_only) gives better performance than the OpenMP backend (src/KOKKOS/kokkos.cpp:238)
+Kokkos::OpenMP::initialize WARNING: OMP_PROC_BIND environment variable not set
+  In general, for best performance with OpenMP 4.0 or better set OMP_PROC_BIND=spread and OMP_PLACES=threads
+  For best performance with OpenMP 3.1 set OMP_PROC_BIND=true
+  For unit testing set OMP_PROC_BIND=false
+Kokkos::Cuda::initialize WARNING: running kernels compiled for compute capability 8.6 on device with compute capability 8.9 , this will likely reduce potential performance.
+Kokkos::Cuda::initialize WARNING: running kernels compiled for compute capability 8.6 on device with compute capability 8.9 , this will likely reduce potential performance.
+Kokkos::Cuda::initialize WARNING: running kernels compiled for compute capability 8.6 on device with compute capability 8.9 , this will likely reduce potential performance.
+Kokkos::Cuda::initialize WARNING: running kernels compiled for compute capability 8.6 on device with compute capability 8.9 , this will likely reduce potential performance.
+  using 1 OpenMP thread(s) per MPI task
+Reading data file ...
+  orthogonal box = (0 0 0) to (18.6206 18.6206 18.6206)
+  1 by 1 by 2 MPI processor grid
+  reading atoms ...
+  648 atoms
+  read_data CPU = 0.004 seconds
+Replication is creating a 21x21x42 = 18522 times larger system...
+  orthogonal box = (0 0 0) to (391.0326 391.0326 782.0652)
+  1 by 1 by 2 MPI processor grid
+  12002256 atoms
+  replicate CPU = 0.423 seconds
+Use the NEP4 potential with 2 atom types.
+    type 0 (O).
+    type 1 (H).
+    radial cutoff = 6 A.
+    angular cutoff = 4 A.
+    MN_radial = 251.
+    MN_angular = 80.
+    enlarged MN_radial = 314.
+    enlarged MN_angular = 100.
+    n_max_radial = 9.
+    n_max_angular = 7.
+    basis_size_radial = 9.
+    basis_size_angular = 7.
+    l_max_3body = 4.
+    l_max_4body = 2.
+    l_max_5body = 0.
+    ANN = 50-100-1.
+   the input nep4 potential file is from GPUMD.
+    number of neural network parameters = 10401.
+    number of descriptor parameters = 656.
+    total number of parameters = 11057.
+    copy the last bias parameters[10400]=-12.695954 to parameters[10401]=-12.695954 
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+NEP Kokkos potential /data/home/pfsuo/pfsuo/software/build/nep-data/2023_Xu_liquid_water/nep.txt loaded successfully
+========= USE_SHAREMEM_C2 1 USE_SHAREMEM_C3 1 ==========
+===== DEBUG: newton_pair = 1 =====
+===== DEBUG: newton_pair = 1 =====
+Neighbor list info ...
+  update: every = 1 steps, delay = 10 steps, check = yes
+  max neighbors/atom: 2000, page size: 100000
+  master list distance cutoff = 7
+  ghost atom cutoff = 7
+  binsize = 7, bins = 56 56 112
+  1 neighbor lists, perpetual/occasional/extra = 1 0 0
+  (1) pair matpl/nep/kk, perpetual
+      attributes: full, newton on, kokkos_device
+      pair build: full/bin/kk/device
+      stencil: full/bin/3d
+      bin: kk/device
+Setting up Verlet run ...
+  Unit style    : metal
+  Current step  : 0
+  Time step     : 0.0005
+Per MPI rank memory allocation (min/avg/max) = 1068 | 1068 | 1068 Mbytes
+   Step          Temp          PotEng         KinEng         TotEng         Press          Volume    
+         0   300           -622298.3       465423.97     -156874.33     -40209.734      1.1958285e+08
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  Kokkos failed to allocate memory for label "neighlist:neighbors".  Allocation using MemorySpace named "Cuda" failed with the following error:  Allocation of size 4.292 G failed, likely due to insufficient memory.  (The allocation mechanism was cudaMalloc().  The Cuda allocation returned the error code ""cudaErrorMemoryAllocation".)
+
+[gn204:02194] *** Process received signal ***
+[gn204:02194] Signal: Aborted (6)
+[gn204:02194] Signal code:  (-6)
+[gn204:02194] [ 0] /lib64/libpthread.so.0(+0xf630)[0x2ac883533630]
+[gn204:02194] [ 1] /lib64/libc.so.6(gsignal+0x37)[0x2ac886ba6387]
+[gn204:02194] [ 2] /lib64/libc.so.6(abort+0x148)[0x2ac886ba7a78]
+[gn204:02194] [ 3] /lib64/libstdc++.so.6(_ZN9__gnu_cxx27__verbose_terminate_handlerEv+0x165)[0x2ac8866b2a95]
+[gn204:02194] [ 4] /lib64/libstdc++.so.6(+0x5ea06)[0x2ac8866b0a06]
+[gn204:02194] [ 5] /lib64/libstdc++.so.6(+0x5ea33)[0x2ac8866b0a33]
+[gn204:02194] [ 6] /lib64/libstdc++.so.6(+0x5ec53)[0x2ac8866b0c53]
+[gn204:02194] [ 7] lmp[0x4e6eb3]
+[gn204:02194] [ 8] lmp[0x2122395]
+[gn204:02194] [ 9] lmp[0x212a6a3]
+[gn204:02194] [10] lmp[0x2128c0c]
+[gn204:02194] [11] lmp[0x973ba0]
+[gn204:02194] [12] lmp[0x9e51cd]
+[gn204:02194] [13] lmp[0x96b4bc]
+[gn204:02194] [14] lmp[0xd0383e]
+[gn204:02194] [15] lmp[0x6600bb]
+[gn204:02194] [16] lmp[0x565915]
+[gn204:02194] [17] lmp[0x565bed]
+[gn204:02194] [18] lmp[0x4e903a]
+[gn204:02194] [19] /lib64/libc.so.6(__libc_start_main+0xf5)[0x2ac886b92555]
+[gn204:02194] [20] lmp[0x546695]
+[gn204:02194] *** End of error message ***
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 2194 on node gn204 exited on signal 6 (Aborted).
+--------------------------------------------------------------------------
