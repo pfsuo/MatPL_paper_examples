@@ -4,7 +4,6 @@
 #SBATCH -N 1
 #SBATCH -o out
 #SBATCH --gres=gpu:1
-#SBATCH -w gn135
 
 echo "Starting job $SLURM_JOB_ID at " `date`
 echo "SLURM_SUBMIT_DIR is $SLURM_SUBMIT_DIR"
